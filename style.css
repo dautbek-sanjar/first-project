@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Mulish:ital,wght@0,200;1,200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+header{
+    padding: 25px;
+}
+.header-wrapper{
+    width: 75%;
+    margin: 0 auto;
+   
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 160px;
+}
+header nav a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: grey;
+    opacity: 0.5;
+}
+.welcome-wrapper{
+    width: 73%;
+    margin: 0 auto;
+}
+.inder{
+    padding: 75px 0;
+}
+.welcome-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#welcome img{
+    width: 450px;
+}
+.welcome-decor{
+    width:450px ;
+    color: grey;
+   
+}
+#welcome h1{
+    font-size: 2.5rem;
+}
+#welcome button{
+    background-color: rgb(0, 127, 211);
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+#servis{
+    margin-top: 100px;
+    background:url(/img/services-bg.png) ;
+    background-size: cover;
+}
+.servis-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.servis-text{
+    text-align: center;
+}
+.servis-text p{
+    color: gray;
+}
+.servis-text hr{
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin: 35 auto;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 0 15px 0 #999;
+    width: 240px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.cards-row{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.servis-cards{
+    margin-top: 100px;
+}
+p{
+    color: gray;
+    
+}
+.card p{
+    line-height: 1.5;
+}
+.card img{
+   width: 68px;
+   margin-bottom: 10px;
+}
+.projekt-wrapper{
+    margin: 0 auto;
+    width: 70%;
+}
+.projekt img{
+    width: 50%;
+
+}
+.projekt-text{
+    width: 40%;
+    
+}
+.projekt-content{
+    margin-bottom: 100px;
+}
+.projekt-text hr{
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin: 35 0;
+}
+.projekt{
+    display: flex;
+   justify-content: space-between;
+}
+.right-aligned{
+    flex-direction: row-reverse;
+}
+#projekt button{
+    background-color: rgb(0, 127, 211);
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+
+}
